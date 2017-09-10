@@ -175,7 +175,7 @@
                         <verbose>true</verbose>
                         <overwrite>true</overwrite>
                         <configurationFile>
-                            src/main/resources/mybatis-generator.xml
+                            src/main/resources/generator/mybatis-generator.xml
                         </configurationFile>
                     </configuration>
                     <dependencies>
