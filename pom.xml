@@ -113,11 +113,22 @@
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>1.1.1</version>
             </dependency>
+            <dependency>
+                <groupId>tk.mybatis</groupId>
+                <artifactId>mapper-spring-boot-starter</artifactId>
+                <version>1.1.0</version>
+            </dependency>
 
             <dependency>
                 <groupId>tk.mybatis</groupId>
                 <artifactId>mapper</artifactId>
                 <version>${tk.mybatis.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.yuandu</groupId>
+                <artifactId>yuandu_common</artifactId>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
 
@@ -154,7 +165,6 @@
     <build>
         <defaultGoal>compile</defaultGoal>
         <finalName>parent</finalName>
-
 
         <pluginManagement>
             <plugins>
