@@ -127,15 +127,22 @@
 
             <dependency>
                 <groupId>com.yuandu</groupId>
-                <artifactId>yuandu_common</artifactId>
+                <artifactId>yuandu-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.yuandu</groupId>
-                <artifactId>yuandu_redis</artifactId>
+                <artifactId>yuandu-redis</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.yuandu</groupId>
+                <artifactId>yuandu-mybatis</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
