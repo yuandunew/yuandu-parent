@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>yuandu_parent</name>
+    <name>yuandu-parent</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
