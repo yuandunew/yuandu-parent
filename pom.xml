@@ -162,6 +162,18 @@
                 <version>4.7</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.apache.flume</groupId>
+                <artifactId>flume-ng-sdk</artifactId>
+                <version>1.6.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.yuandu</groupId>
+                <artifactId>yuandu-flume-appender</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
